@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+
+    android:fitsSystemWindows="true"
+    >
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        app:menu="@menu/menu"-->
+<!--        android:fitsSystemWindows="true">-->
+
+<!--    </com.google.android.material.navigation.NavigationView>-->
+
+<!--    <android.support.design.widget.NavigationView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        app:menu=""-->
+<!--        android:fitsSystemWindows=""-->
+<!--        >-->
+
+<!--    </android.support.design.widget.NavigationView>-->
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar usuario"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/btnSendToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ya tengo una cuenta"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/btnExa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
